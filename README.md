@@ -26,19 +26,35 @@ All API endpoints are come from json file `http://localhost:8081/api/v01/{object
 2. Json File Example
     ```
     {
-      "customers": [
-        {
-          "customer_id": 1,
-          "firstname": "pyae",
-          "lastname": "sone1"
-        },
-        {
-          "customer_id": 2,
-          "firstname": "pyae",
-          "lastname": "sone2"
-        }
-      ]
-    }
+  "customer": {
+    "list": [
+      {
+        "customer_id": 1,
+        "firstname": "pyae",
+        "lastname": "sone1"
+      },
+      {
+        "customer_id": 2,
+        "firstname": "pyae",
+        "lastname": "sone2"
+      }
+    ]
+  },
+  "admin": {
+    "list": [
+      {
+        "admin_id": 1,
+        "firstname": "pyae",
+        "lastname": "sone1"
+      },
+      {
+        "admin_id": 2,
+        "firstname": "pyae",
+        "lastname": "sone2"
+      },
+    ]
+  }
+}
     ```   
 3. GET log output as below
     ```
